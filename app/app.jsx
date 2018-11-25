@@ -6,7 +6,10 @@ var Timer = require('Timer');
 var Countdown = require('Countdown');
 
 // Load foundation
+/* Do not need the require lines? after adding the sassLoader entry in webpack.config.js, lecture 8-84 */
+/*
 require('style!css!foundation-sites/dist/css/foundation.min.css');
+*/
 require('style!css!foundation-sites/dist/css/foundation-float.min.css');
 $(document).foundation();
 
